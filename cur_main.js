@@ -353,7 +353,7 @@ async function experimentInit() {
   rocketSpeed = 200;
   rocketStartY = (- 400);
   rocketSize = 70;
-  moonSize = 90;
+  moonSize = 120;
   rocketHalf = (rocketSize / 2);
   moonHalf = (moonSize / 2);
   
