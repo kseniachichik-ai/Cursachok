@@ -365,7 +365,7 @@ async function experimentInit() {
     ori : 0.0, 
     pos : [0, 0], 
     draggable: false,
-    size : [90, 90],
+    size : [120, 120],
     color : new util.Color([1.0, 1.0, 1.0]), opacity : undefined,
     flipHoriz : false, flipVert : false,
     texRes : 128.0, interpolate : true, depth : -1.0 
@@ -378,7 +378,7 @@ async function experimentInit() {
     ori : 0.0, 
     pos : [0, 0], 
     draggable: false,
-    size : [90, 90],
+    size : [120, 120],
     color : new util.Color([1.0, 1.0, 1.0]), opacity : undefined,
     flipHoriz : false, flipVert : false,
     texRes : 128.0, interpolate : true, depth : -2.0 
@@ -391,7 +391,7 @@ async function experimentInit() {
     ori : 0.0, 
     pos : [0, 0], 
     draggable: false,
-    size : [90, 90],
+    size : [120, 120],
     color : new util.Color([1.0, 1.0, 1.0]), opacity : undefined,
     flipHoriz : false, flipVert : false,
     texRes : 128.0, interpolate : true, depth : -3.0 
@@ -2668,10 +2668,10 @@ function JUSTFLIGHT_testRoutineEachFrame() {
                 measuredTime = timerClock.getTime();
                 rockett_2.setOpacity(1);
                 deviation = (measuredTime - testik_time);
-                if ((measuredTime > (testik_time + 0.0333))) {
+                if ((measuredTime > (testik_time + 0.083))) {
                     feedbackText = "\u043f\u0435\u0440\u0435\u043b\u0435\u0442";
                 } else {
-                    if ((measuredTime < (testik_time - 0.0333))) {
+                    if ((measuredTime < (testik_time - 0.083))) {
                         feedbackText = "\u043d\u0435\u0434\u043e\u043b\u0435\u0442";
                     } else {
                         feedbackText = "\u041f\u043e\u043b\u0443\u0447\u0438\u043b\u043e\u0441\u044c!";
@@ -3218,10 +3218,10 @@ function JUSTFLIGHTRoutineEachFrame() {
                 measuredTime = timerClock.getTime();
                 rockett.opacity = 1;
                 deviation = (measuredTime - target_time);
-                if ((measuredTime > (target_time + 0.0333))) {
+                if ((measuredTime > (target_time + 0.083))) {
                     feedbackText = "\u043f\u0435\u0440\u0435\u043b\u0435\u0442";
                 } else {
-                    if ((measuredTime < (target_time - 0.0333))) {
+                    if ((measuredTime < (target_time - 0.083))) {
                         feedbackText = "\u043d\u0435\u0434\u043e\u043b\u0435\u0442";
                     } else {
                         feedbackText = "\u041f\u043e\u043b\u0443\u0447\u0438\u043b\u043e\u0441\u044c!";
