@@ -236,7 +236,7 @@ async function experimentInit() {
   rocketStartY = -400;
   
   rocketSize = 70;
-  moonSize = 90;
+  moonSize = 120;
   
   rocketHalf = rocketSize / 2;
   moonHalf = moonSize / 2;
@@ -249,7 +249,7 @@ async function experimentInit() {
     ori : 0.0, 
     pos : [0, 0], 
     draggable: false,
-    size : [90, 90],
+    size : [120, 120],
     color : new util.Color([1.0, 1.0, 1.0]), opacity : undefined,
     flipHoriz : false, flipVert : false,
     texRes : 128.0, interpolate : true, depth : -1.0 
@@ -262,7 +262,7 @@ async function experimentInit() {
     ori : 0.0, 
     pos : [0, 0], 
     draggable: false,
-    size : [90, 90],
+    size : [120, 120],
     color : new util.Color([1.0, 1.0, 1.0]), opacity : undefined,
     flipHoriz : false, flipVert : false,
     texRes : 128.0, interpolate : true, depth : -2.0 
@@ -275,7 +275,7 @@ async function experimentInit() {
     ori : 0.0, 
     pos : [0, 0], 
     draggable: false,
-    size : [90, 90],
+    size : [120, 120],
     color : new util.Color([1.0, 1.0, 1.0]), opacity : undefined,
     flipHoriz : false, flipVert : false,
     texRes : 128.0, interpolate : true, depth : -3.0 
@@ -345,7 +345,7 @@ async function experimentInit() {
   rocketSpeed = 200;
   rocketStartY = (- 400);
   rocketSize = 70;
-  moonSize = 90;
+  moonSize = 120;
   rocketHalf = (rocketSize / 2);
   moonHalf = (moonSize / 2);
   
@@ -357,7 +357,7 @@ async function experimentInit() {
     ori : 0.0, 
     pos : [0, 0], 
     draggable: false,
-    size : [90, 90],
+    size : [120, 120],
     color : new util.Color([1.0, 1.0, 1.0]), opacity : undefined,
     flipHoriz : false, flipVert : false,
     texRes : 128.0, interpolate : true, depth : -1.0 
@@ -370,7 +370,7 @@ async function experimentInit() {
     ori : 0.0, 
     pos : [0, 0], 
     draggable: false,
-    size : [90, 90],
+    size : [120, 120],
     color : new util.Color([1.0, 1.0, 1.0]), opacity : undefined,
     flipHoriz : false, flipVert : false,
     texRes : 128.0, interpolate : true, depth : -2.0 
@@ -383,7 +383,7 @@ async function experimentInit() {
     ori : 0.0, 
     pos : [0, 0], 
     draggable: false,
-    size : [90, 90],
+    size : [120, 120],
     color : new util.Color([1.0, 1.0, 1.0]), opacity : undefined,
     flipHoriz : false, flipVert : false,
     texRes : 128.0, interpolate : true, depth : -3.0 
