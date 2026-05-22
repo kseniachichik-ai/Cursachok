@@ -3228,10 +3228,10 @@ function JUSTFLIGHTRoutineEachFrame() {
                 measuredTime = timerClock.getTime();
                 rockett.opacity = 1;
                 deviation = (measuredTime - target_time);
-                if ((measuredTime > (target_time + 0.0333))) {
+                if ((measuredTime > (target_time +0.083))) {
                     feedbackText = "\u043f\u0435\u0440\u0435\u043b\u0435\u0442";
                 } else {
-                    if ((measuredTime < (target_time - 0.0333))) {
+                    if ((measuredTime < (target_time - 0.083))) {
                         feedbackText = "\u043d\u0435\u0434\u043e\u043b\u0435\u0442";
                     } else {
                         feedbackText = "\u041f\u043e\u043b\u0443\u0447\u0438\u043b\u043e\u0441\u044c!";
